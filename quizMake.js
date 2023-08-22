@@ -1,10 +1,3 @@
-let containerOfMadeQuiz = document.getElementById("containerOfMadeQuiz")
-let background = document.getElementById("background")
-
-containerOfMadeQuiz.remove()
-
-//background.append(containerOfMadeQuiz)
-
 let textArea = document.getElementById("textArea")
 let createNextBtn = document.getElementById("createNextBtn")
 let createExamBtn = document.getElementById("createExamBtn")
