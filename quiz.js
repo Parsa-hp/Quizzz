@@ -250,8 +250,8 @@ class Quiz {    // اکسپورت برای اینه که بتونیم توی ف�
 
 let questions = [new Questions("Which one is the best?" , ["Breaking Bad" , "Game Of Thrones" , "Peaky Blinders" , "True Detective"] , "Game Of Thrones"),
                  new Questions("Who is the greatest actor?" , ["Leonardo Dicaprio" , "Brad pitt" , "Daniel Day-Lewis" , "Benedict Cumberbatch"] , "Daniel Day-Lewis") , 
-                 new Questions("4 * 5" , ["3" , "20" , "15" , "7"] , "20"),
-                 new Questions("7 * 8" , ["56" , "32" , "9" , "10"] , "56"),
+                 new Questions("Who is director of WestWorld?" , ["Martin Scorsese" , "Cristopher Nolan" , "David Fincher" , "Jonathan Nolan"] , "Jonathan Nolan"),
+                 new Questions("Which one has made by HBO?" , ["Big Little Lies" , "Stranger Things" , "Walking Dead" , "Vicings"] , "Big Little Lies"),
                ]
 
 let quiz = new Quiz(questions)
