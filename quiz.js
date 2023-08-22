@@ -249,7 +249,7 @@ class Quiz {    // اکسپورت برای اینه که بتونیم توی ف�
 
 
 let questions = [new Questions("Which one is the best?" , ["Breaking Bad" , "Game Of Thrones" , "Peaky Blinders" , "True Detective"] , "Game Of Thrones"),
-                 new Questions("2 * 3" , ["1" , "5" , "3" , "6"] , "6") , 
+                 new Questions("Who is the greatest actor?" , ["Leonardo Dicaprio" , "Brad pitt" , "Daniel Day-Lewis" , "Benedict Cumberbatch"] , "Daniel Day-Lewis") , 
                  new Questions("4 * 5" , ["3" , "20" , "15" , "7"] , "20"),
                  new Questions("7 * 8" , ["56" , "32" , "9" , "10"] , "56"),
                ]
