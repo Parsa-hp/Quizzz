@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="quizMake.css">
+   <title>Make Your Exam</title>
+</head>
+<body>
+   <div class="background" id="background">
+      <div class="container">
+         <p>
+            Enter Question 1 :
+         </p>
+         <textarea id="textArea" cols="40" rows="10" placeholder="type here..."></textarea>
+         <br>
+         <br>
+         <p>
+            Enter Options :
+         </p>
+         <input type="text" placeholder="Option1" class="options">
+         <input type="text" placeholder="Option2" class="options">
+         <input type="text" placeholder="Option3" class="options">
+         <input type="text" placeholder="Option4" class="options">
+         <p>
+            Right Answer: <select id="rightAnswer">
+               <option value="0">Option1</option>
+               <option value="1">Option2</option>
+               <option value="2">Option3</option>
+               <option value="3">Option4</option>
+            </select>
+         </p>
+
+         <div class="buttonContainer">
+            <button class="createNextBtn" id="createNextBtn">
+               Create Next Question
+            </button>
+            <a href="quiz.html">
+               <button class="createExamBtn" id="createExamBtn">
+                  Create The Exam
+               </button>
+            </a>
+
+         </div>
+
+      </div>
+
+      <div id="containerOfMadeQuiz">
+   
+         <button id="prev" class="prevButton prevNext element">
+            <img src="icons/prevButton.png" alt="prev" class="prevIcon prevNextIcon">
+         </button>
+         
+      
+         <div class="questionBox" id="questionBox">
+   
+            <div class="questionContainer" id="questionContainer">
+               <p id="progress" class="element"></p>
+               <p id="question" class="element"></p>
+            </div>
+   
+            <div class="optionContainer" id="optionContainer">
+               <label id="option0" for="guess0" class="options element" >option1</label>
+               <input type="radio" name="option" id="guess0" class="element" onclick="Quiz.butonsOnClick()">
+               
+               <label id="option1" for="guess1" class="options element" >option2</label>
+               <input type="radio" name="option" id="guess1" class="element" onclick="Quiz.butonsOnClick()">
+            
+               <label id="option2" for="guess2" class="options element" >option3</label>
+               <input type="radio" name="option" id="guess2" class="element" onclick="Quiz.butonsOnClick()">
+            
+               <label id="option3" for="guess3" class="options element" >option4</label>
+               <input type="radio" name="option" id="guess3" class="element" onclick="Quiz.butonsOnClick()">
+            </div>
+            
+   
+         
+            <br><br>
+      
+            <div>
+               <p id="displayScore">
+                  Exam has finished ! <br>
+                  your score is: 
+               </p>
+            </div>
+   
+         </div>
+      
+         <button id="next" class="nextButton prevNext element">
+            <img src="icons/nextButton.png" alt="next" class="nextIcon prevNextIcon">
+         </button>
+   
+      </div>
+         
+         
+
+   <script src="quizMake.js"></script>
+</body>
+</html>

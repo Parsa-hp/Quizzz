@@ -1,0 +1,129 @@
+body{
+   color: white;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.background{  
+   background-color: lightblue;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+input{
+   display: none;
+}
+.options{
+   display: flex;
+   padding: 5px;
+   margin-bottom:7px ;
+   border-style: solid;
+   border-color: rgb(21, 93, 117);
+   border-radius: 10px;
+   padding: 7px 0px 7px 10px;
+   margin: 0px 10px 10px 0px;
+}
+.options:hover{
+   background-color: rgb(176, 176, 179);
+   color: black;
+   cursor: pointer;
+}
+.options:active{
+   background-color: gray;
+}
+#displayScore{
+   display: none;
+}
+.numberOfQuestion{
+   font-size: 32px;
+}
+.numberOfQuestions{
+   font-size: 20px;
+   margin-left: -5px;
+}
+.questionBox{
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items:center;
+   padding-left: 30px;
+   background-color:rgb(4, 14, 35);
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   margin: 0px 15px;
+}
+
+.questionContainer{
+   width: 50%;
+   margin-bottom: 150px;
+   line-height: 32px;
+}
+
+.optionContainer{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   font-size: 16px;
+}
+#progress{
+   font-size: 27px;
+   font-weight: 100;
+}
+#question{
+   font-size: 22px;
+   font-weight: 100;
+}
+.container{
+   width: 600px;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.prevNext{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   border: none;
+   padding: 0px 20px;
+   width: 100px;
+   height: 80px;
+   background-color: rgba(243, 240, 240, 0.7);
+   border-radius: 100px;
+}
+.prevNext:hover{
+   cursor: pointer;
+   background-color: rgba(241, 237, 237, 0.9);
+}
+.prevNext:active{
+   background-color: rgb(247, 246, 246);
+}
+.prevNextIcon{
+   width: 100%;
+   height: 65%;
+}
+.endExam{
+   background-color: rgb(73, 168, 168);
+   border: none;
+   width: 120px;
+   height: 50px;
+   font-size: 20px;
+   color: white;
+   border-radius: 4px;
+}
+.endExam:hover{
+   cursor: pointer;
+   background-color: rgb(73, 168, 168,0.7)
+}
+#displayScore{
+   text-align: center;
+   margin: 0px;
+   width: 300px;
+   height: 100px;
+   font-size: 30px;
+}
